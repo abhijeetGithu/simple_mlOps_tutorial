@@ -23,7 +23,8 @@ This project demonstrates the end-to-end MLOps lifecycle: from data ingestion an
 - **Continuous Integration**: Ensures code quality and integrity with integrated CI/CD pipelines.
 
 ---
-![Alt text](./Screenshot%2024-09-08%185737.png)
+![Alt text](./Screenshot%202024-09-08%20233259.png)
+
 
 ## 📁 Project Structure
 
