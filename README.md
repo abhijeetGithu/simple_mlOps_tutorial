@@ -46,3 +46,14 @@ wine-quality-predictor/
 └── .github/
     └── workflows/
         └── ci.yml                  # CI/CD pipeline configuration
+```
+## 🛠️ Tools & Technologies
+
+| **Category**        | **Tools**                             |
+|---------------------|---------------------------------------|
+| **Data Processing**  | `Pandas`, `NumPy`, `scikit-learn`     |
+| **Model Training**   | `XGBoost`, `RandomForest`, `MLflow`   |
+| **Containerization** | `Docker`                             |
+| **Deployment**       | `AWS`, `Heroku`, `Streamlit`          |
+| **CI/CD**            | `GitHub Actions`, `MLflow`           |
+
