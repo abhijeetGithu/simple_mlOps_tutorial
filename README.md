@@ -57,3 +57,36 @@ wine-quality-predictor/
 | **Deployment**       | `AWS`, `Heroku`, `Streamlit`          |
 | **CI/CD**            | `GitHub Actions`, `MLflow`           |
 
+## 📊 Model Performance
+
+| **Metric**          | **Score**        |
+|---------------------|------------------|
+| Accuracy            | 87.5%            |
+| MAE                 | 0.32             |
+| RMSE                | 0.45             |
+
+---
+
+## 💡 Future Improvements
+
+- Add support for more wine types (e.g., sparkling wine).
+- Optimize the model for better performance on edge cases.
+- Extend the application with real-time data from wine manufacturers.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add your feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
