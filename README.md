@@ -23,6 +23,7 @@ This project demonstrates the end-to-end MLOps lifecycle: from data ingestion an
 
 ---
 
+![Alt text](./Screenshot%2024-09-08%185737.png)
 ## 📁 Project Structure
 
 ```bash
