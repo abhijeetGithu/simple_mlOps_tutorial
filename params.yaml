@@ -4,10 +4,10 @@ base:
   target_col: TARGET
 
 data_source:
-  s3_source: data_given/winequality.csv # use in stage-1 get_data
+  s3_source: data_given/winequality.csv
 
 load_data:
-  raw_dataset_csv: data/raw/winequality.csv  # stage-1 load_data
+  raw_dataset_csv: data/raw/winequality.csv
 
 split_data:
   train_path: data/processed/train_winequality.csv
@@ -17,10 +17,12 @@ split_data:
 estimators:
   ElasticNet:
     params:
-      alpha: 0.88
-      l1_ratio: 0.89
+      # alpha: 0.88
+      # l1_ratio: 0.89
       # alpha: 0.9
       # l1_ratio: 0.4
+      alpha: 0.9
+      l1_ratio: 0.4
 model_dir: saved_models
 
 reports:
@@ -28,3 +30,10 @@ reports:
   scores: report/scores.json
 
 webapp_model_dir: prediction_service/model/model.joblib
+
+mlflow_config:
+  artifacts_dir: artifacts
+  experiment_name: ElasticNet regression
+  run_name: mlops
+  registered_model_name: ElasticNetWineModel
+  remote_server_uri: http://127.0.0.1:1234  # use the same command given in readme to start only change the host port
